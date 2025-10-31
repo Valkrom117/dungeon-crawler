@@ -1,0 +1,17 @@
+__pycache__/
+
+node_modules/
+
+.env
+
+bin/
+
+lib64
+
+lib/
+
+pyvenv.cfg
+
+CACHEDIR.TAG
+
+err.log

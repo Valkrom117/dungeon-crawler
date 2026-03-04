@@ -1,0 +1,406 @@
+{
+    "Club": {
+        "type": "Simple Melee",
+        "dice_sides": 4,
+        "dice_amount": 1,
+        "damage_type": "Bludgeoning",
+        "properties": ["Light"],
+        "cost": "1 sp",
+        "weight": 2
+    },
+    "Dagger": {
+        "type": "Simple Melee",
+        "dice_sides": 4,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Finesse", "Light", "Thrown"],
+        "range": "20/60",
+        "cost": "2 gp",
+        "weight": 1
+    },
+    "Greatclub": {
+        "type": "Simple Melee",
+        "dice_sides": 8,
+        "dice_amount": 1,
+        "damage_type": "Bludgeoning",
+        "properties": ["Two-Handed"],
+        "cost": "2 sp",
+        "weight": 10
+    },
+    "Handaxe": {
+        "type": "Simple Melee",
+        "dice_sides": 6,
+        "dice_amount": 1,
+        "damage_type": "Slashing",
+        "properties": ["Light", "Thrown"],
+        "range": "20/60",
+        "cost": "5 gp",
+        "weight": 2
+    },
+    "Javelin": {
+        "type": "Simple Melee",
+        "dice_sides": 6,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Thrown"],
+        "range": "30/120",
+        "cost": "5 sp",
+        "weight": 2
+    },
+    "Light Hammer": {
+        "type": "Simple Melee",
+        "dice_sides": 4,
+        "dice_amount": 1,
+        "damage_type": "Bludgeoning",
+        "properties": ["Light", "Thrown"],
+        "range": "20/60",
+        "cost": "2 gp",
+        "weight": 2
+    },
+    "Mace": {
+        "type": "Simple Melee",
+        "dice_sides": 6,
+        "dice_amount": 1,
+        "damage_type": "Bludgeoning",
+        "properties": [],
+        "cost": "5 gp",
+        "weight": 4
+    },
+    "Quarterstaff 1H": {
+        "type": "Simple Melee",
+        "dice_sides": 6,
+        "dice_amount": 1,
+        "damage_type": "Bludgeoning",
+        "properties": [],
+        "cost": "2 sp",
+        "weight": 4
+    },
+    "Quarterstaff 2H": {
+        "type": "Simple Melee",
+        "dice_sides": 8,
+        "dice_amount": 1,
+        "damage_type": "Bludgeoning",
+        "properties": ["Two-Handed"],
+        "cost": "2 sp",
+        "weight": 4
+    },
+    "Sickle": {
+        "type": "Simple Melee",
+        "dice_sides": 4,
+        "dice_amount": 1,
+        "damage_type": "Slashing",
+        "properties": ["Light"],
+        "cost": "1 gp",
+        "weight": 2
+    },
+    "Spear 1H": {
+        "type": "Simple Melee",
+        "dice_sides": 6,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Thrown"],
+        "range": "20/60",
+        "cost": "1 gp",
+        "weight": 3
+    },
+    "Spear 2H": {
+        "type": "Simple Melee",
+        "dice_sides": 8,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Thrown", "Two-Handed"],
+        "range": "20/60",
+        "cost": "1 gp",
+        "weight": 3
+    },
+    "Light Crossbow": {
+        "type": "Simple Ranged",
+        "dice_sides": 8,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Ammunition", "Loading", "Two-Handed"],
+        "range": "80/320",
+        "cost": "25 gp",
+        "weight": 5
+    },
+    "Dart": {
+        "type": "Simple Ranged",
+        "dice_sides": 4,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Finesse", "Thrown"],
+        "range": "20/60",
+        "cost": "5 cp",
+        "weight": 0.25
+    },
+    "Shortbow": {
+        "type": "Simple Ranged",
+        "dice_sides": 6,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Ammunition", "Two-Handed"],
+        "range": "80/320",
+        "cost": "25 gp",
+        "weight": 2
+    },
+    "Sling": {
+        "type": "Simple Ranged",
+        "dice_sides": 4,
+        "dice_amount": 1,
+        "damage_type": "Bludgeoning",
+        "properties": ["Ammunition"],
+        "range": "30/120",
+        "cost": "1 sp",
+        "weight": 0
+    },
+    "Battleaxe 1H": {
+        "type": "Martial Melee",
+        "dice_sides": 8,
+        "dice_amount": 1,
+        "damage_type": "Slashing",
+        "properties": [],
+        "cost": "10 gp",
+        "weight": 4
+    },
+    "Battleaxe 2H": {
+        "type": "Martial Melee",
+        "dice_sides": 10,
+        "dice_amount": 1,
+        "damage_type": "Slashing",
+        "properties": ["Two-Handed"],
+        "cost": "10 gp",
+        "weight": 4
+    },
+    "Flail": {
+        "type": "Martial Melee",
+        "dice_sides": 8,
+        "dice_amount": 1,
+        "damage_type": "Bludgeoning",
+        "properties": [],
+        "cost": "10 gp",
+        "weight": 2
+    },
+    "Glaive": {
+        "type": "Martial Melee",
+        "dice_sides": 10,
+        "dice_amount": 1,
+        "damage_type": "Slashing",
+        "properties": ["Heavy", "Reach", "Two-Handed"],
+        "cost": "20 gp",
+        "weight": 6
+    },
+    "Greataxe": {
+        "type": "Martial Melee",
+        "dice_sides": 12,
+        "dice_amount": 1,
+        "damage_type": "Slashing",
+        "properties": ["Heavy", "Two-Handed"],
+        "cost": "30 gp",
+        "weight": 7
+    },
+    "Greatsword": {
+        "type": "Martial Melee",
+        "dice_sides": 6,
+        "dice_amount": 2,
+        "damage_type": "Slashing",
+        "properties": ["Heavy", "Two-Handed"],
+        "cost": "50 gp",
+        "weight": 6
+    },
+    "Halberd": {
+        "type": "Martial Melee",
+        "dice_sides": 10,
+        "dice_amount": 1,
+        "damage_type": "Slashing",
+        "properties": ["Heavy", "Reach", "Two-Handed"],
+        "cost": "20 gp",
+        "weight": 6
+    },
+    "Lance": {
+        "type": "Martial Melee",
+        "dice_sides": 12,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Reach", "Special"],
+        "cost": "10 gp",
+        "weight": 6
+    },
+    "Longsword 1H": {
+        "type": "Martial Melee",
+        "dice_sides": 8,
+        "dice_amount": 1,
+        "damage_type": "Slashing",
+        "properties": [],
+        "cost": "15 gp",
+        "weight": 3
+    },
+    "Longsword 2H": {
+        "type": "Martial Melee",
+        "dice_sides": 10,
+        "dice_amount": 1,
+        "damage_type": "Slashing",
+        "properties": ["Two-Handed"],
+        "cost": "15 gp",
+        "weight": 3
+    },
+    "Maul": {
+        "type": "Martial Melee",
+        "dice_sides": 6,
+        "dice_amount": 2,
+        "damage_type": "Bludgeoning",
+        "properties": ["Heavy", "Two-Handed"],
+        "cost": "10 gp",
+        "weight": 10
+    },
+    "Morningstar": {
+        "type": "Martial Melee",
+        "dice_sides": 8,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": [],
+        "cost": "15 gp",
+        "weight": 4
+    },
+    "Pike": {
+        "type": "Martial Melee",
+        "dice_sides": 10,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Heavy", "Reach", "Two-Handed"],
+        "cost": "5 gp",
+        "weight": 18
+    },
+    "Rapier": {
+        "type": "Martial Melee",
+        "dice_sides": 8,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Finesse"],
+        "cost": "25 gp",
+        "weight": 2
+    },
+    "Scimitar": {
+        "type": "Martial Melee",
+        "dice_sides": 6,
+        "dice_amount": 1,
+        "damage_type": "Slashing",
+        "properties": ["Finesse", "Light"],
+        "cost": "25 gp",
+        "weight": 3
+    },
+    "Shortsword": {
+        "type": "Martial Melee",
+        "dice_sides": 6,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Finesse", "Light"],
+        "cost": "10 gp",
+        "weight": 2
+    },
+    "Trident 1H": {
+        "type": "Martial Melee",
+        "dice_sides": 6,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Thrown"],
+        "range": "20/60",
+        "cost": "5 gp",
+        "weight": 4
+    },
+    "Trident 2H": {
+        "type": "Martial Melee",
+        "dice_sides": 8,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Thrown", "Two-Handed"],
+        "range": "20/60",
+        "cost": "5 gp",
+        "weight": 4
+    },
+    "War Pick": {
+        "type": "Martial Melee",
+        "dice_sides": 8,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": [],
+        "cost": "5 gp",
+        "weight": 2
+    },
+    "Warhammer 1H": {
+        "type": "Martial Melee",
+        "dice_sides": 8,
+        "dice_amount": 1,
+        "damage_type": "Bludgeoning",
+        "properties": [],
+        "cost": "15 gp",
+        "weight": 2
+    },
+    "Warhammer 2H": {
+        "type": "Martial Melee",
+        "dice_sides": 10,
+        "dice_amount": 1,
+        "damage_type": "Bludgeoning",
+        "properties": ["Two-Handed"],
+        "cost": "15 gp",
+        "weight": 2
+    },
+    "Whip": {
+        "type": "Martial Melee",
+        "dice_sides": 4,
+        "dice_amount": 1,
+        "damage_type": "Slashing",
+        "properties": ["Finesse", "Reach"],
+        "cost": "2 gp",
+        "weight": 3
+    },
+    "Blowgun": {
+        "type": "Martial Ranged",
+        "dice_sides": 0,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Ammunition", "Loading"],
+        "range": "25/100",
+        "cost": "10 gp",
+        "weight": 1
+    },
+    "Hand Crossbow": {
+        "type": "Martial Ranged",
+        "dice_sides": 6,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Ammunition", "Light", "Loading"],
+        "range": "30/120",
+        "cost": "75 gp",
+        "weight": 3
+    },
+    "Heavy Crossbow": {
+        "type": "Martial Ranged",
+        "dice_sides": 10,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Ammunition", "Heavy", "Loading", "Two-Handed"],
+        "range": "100/400",
+        "cost": "50 gp",
+        "weight": 18
+    },
+    "Longbow": {
+        "type": "Martial Ranged",
+        "dice_sides": 8,
+        "dice_amount": 1,
+        "damage_type": "Piercing",
+        "properties": ["Ammunition", "Heavy", "Two-Handed"],
+        "range": "150/600",
+        "cost": "50 gp",
+        "weight": 2
+    },
+    "Net": {
+        "type": "Martial Ranged",
+        "dice_sides": 0,
+        "dice_amount": 0,
+        "damage_type": "None",
+        "properties": ["Special", "Thrown"],
+        "range": "5/15",
+        "cost": "1 gp",
+        "weight": 3
+    }
+}

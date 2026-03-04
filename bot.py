@@ -17,7 +17,8 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 INITIAL_EXTENSIONS = [
     'dice_commands',
-    'character_commands'
+    'character_commands',
+    "player_commands"
 ]
 
 @bot.event
